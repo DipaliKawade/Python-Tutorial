@@ -8,26 +8,31 @@ print("a =", a)
 
 #add and assignment operator
 print("+=Add and Assignment Operators")
+a=15
 a += 5
 print("a =", a)
 
 #Subtract and Assignment Operators
 print("-=Subtract and Assignment Operators")
+a=20
 a -= 3
 print("a =", a) 
 
 #Multiply and Assignment Operators
 print("*=Multiply and Assignment Operators")
+a=20
 a *= 2
 print("a =", a)
 
 #Divide and Assignment Operators
 print("/=Divide and Assignment Operators")
+a=15
 a /= 2
 print("a =", a)
 
 #Modulus and Assignment Operators
 print("%=Modulus and Assignment Operators")
+a=2
 a %= 2
 print("a =", a)
 
@@ -40,6 +45,7 @@ print("a =", a)
 
 #Exponent and Assignment Operators
 print("**=Exponent and Assignment Operators")
+a=2
 a **= 2
 print("a =", a)
 
@@ -80,19 +86,20 @@ print("Logical NOT :", not x)
 print("---------Bitwise Operators---------")
 a = 10  # 1010 in binary
 print("a =", a)
-print("Bitwise AND :", a & 5)  # 0101 in binary
-print("Bitwise OR :", a | 5)   # 0101 in binary
-print("Bitwise XOR :", a ^ 5)  # 0101 in binary
-print("Bitwise NOT :", ~a)
+print("Bitwise AND :", a & 5)  # 0101 in binary(both true then true)
+print("Bitwise OR :", a | 5)   # 0101 in binary(either true then true)
+print("Bitwise XOR :", a ^ 5)  # 0101 in binary(either true then true but not both)
+print("Bitwise NOT :", ~a)      # 0101 in binary(negation of a)
 
 #identity Operators
 print("---------Identity Operators---------")
 x = 5
 y = 5
-print("x =", x)
-print("y =", y)
-print("x is y :", x is y)
-print("x is not y :", x is not y)
+print("x =", 5)
+print("y =", 5)
+print("id(x) :", id(x))
+print("id(y) :", id(y))
+print(x is not y)
 
 #membership Operators
 print("---------Membership Operators---------")
@@ -127,5 +134,3 @@ print("Result :", result)
 print("---------Operator Precedence Example with Multiple Operators and Parentheses---------")
 result = (2 + 3) * (4 - 5) / 2
 print("Result :", result)
-
-

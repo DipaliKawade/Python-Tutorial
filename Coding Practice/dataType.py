@@ -15,7 +15,7 @@ print("Student Name :", student_name)
 #boolean
 print("---------Boolean---------")
 is_passed=True
-print("Is Passed :", is_passed)
+print("Is Passed :",is_passed)
 
 is_failed=False
 print("Is Failed :", is_failed)
