@@ -1,0 +1,7 @@
+Name: dipali
+Age: 21
+Marks: 87.0
+Name: dipali
+Age: 21
+Marks: 85.0
+
